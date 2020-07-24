@@ -2,8 +2,6 @@
 
 ## Configurations
 
-**Example**
-
 `./config/plugins.js`
 
 ```js
@@ -25,13 +23,3 @@ module.exports = ({ env }) => ({
   // ...
 });
 ```
-
-## Resources
-
-- [License](LICENSE)
-
-## Links
-
-- [Strapi website](http://strapi.io/)
-- [Strapi community on Slack](http://slack.strapi.io)
-- [Strapi news on Twitter](https://twitter.com/strapijs)"# strapi-provider-upload-cloudinary-resize" 
