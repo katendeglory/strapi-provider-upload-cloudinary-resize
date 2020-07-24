@@ -1,0 +1,39 @@
+{
+  "name": "strapi-provider-upload-cloudinary-resize",
+  "version": "0.0.2",
+  "description": "Cloudinary provider for strapi upload",
+  "homepage": "https://github.com/katendeglory/strapi-provider-upload-cloudinary-resize",
+  "keywords": [
+    "upload",
+    "cloudinary",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "into-stream": "^5.1.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "katendeglory@gmail.com",
+    "name": "Katende Glory",
+    "url": "https://github.com/katendeglory"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/katendeglory/strapi-provider-upload-cloudinary-resize"
+  },
+  "engines": {
+    "node": ">=10.10.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
